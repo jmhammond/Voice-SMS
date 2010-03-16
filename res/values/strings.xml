@@ -93,13 +93,13 @@
     <string name="donate">If you enjoy this application and would like to donate, please feel free to do so:\nhttp://evancharlton.com/donate/</string>
     <string name="retrieving_settings">Retrieving settings</string>
     <string name="retrieving_settings_msg">Fetching your Google Voice settings; please be patient.</string>
-    <string name="splash_header">Welcome to GV!</string>
+    <string name="splash_header">Welcome to Voice SMS!</string>
     <string name="compose">New message</string>
     <string name="compose_sms">Compose Google Voice SMS</string>
     <string name="compose_gv_sms">Voice SMS</string>
 	<string name="sms_type_to_compose">Type to compose</string>
 	<string name="toggle_speakerphone">Toggle Speaker</string>
-    <string name="splash_text">GV allows you to use the Google Voice service from your Android phone. <b>You will need a Google Voice account in order to use this application!</b>\n\n
+    <string name="splash_text">Voice SMS allows you to send and receive FREE Google Voice text messages in a great interface. <b>You will need a Google Voice account in order to use this application!</b>\n\n
     If you do not have a Google Voice account, please sign up to receive an invitation by using this page: https://services.google.com/fb/forms/googlevoiceinvite . Note that Google Voice is currently in a closed beta and you might not get an invitation right away.\n\n
     If you have any questions, feel free to send me an email: jclmsoftware.llc@gmail.com Note that I do not have any invitations and I have no affiliation with Google so I have no idea when Google Voice will come out of beta.</string>
     

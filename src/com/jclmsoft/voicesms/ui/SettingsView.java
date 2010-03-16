@@ -33,7 +33,7 @@ public class SettingsView extends PreferenceActivity {
 		super.onCreate(savedInstanceState);
 		NotificationManager notificationMgr = (NotificationManager) this.getSystemService(Activity.NOTIFICATION_SERVICE);
 		if (notificationMgr != null) {
-			notificationMgr.cancel(VoiceSMS.NOTIFICATION_CALL);
+			notificationMgr.cancel(VoiceSMS.NOTIFICATION_SMS);
 		}
 
 		addPreferencesFromResource(R.layout.settings);

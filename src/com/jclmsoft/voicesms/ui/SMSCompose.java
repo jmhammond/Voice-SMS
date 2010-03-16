@@ -26,8 +26,10 @@ import android.widget.Filterable;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
+import com.jclmsoft.voicesms.PreferencesProvider;
 import com.jclmsoft.voicesms.R;
 import com.jclmsoft.voicesms.net.GVCommunicator;
+import com.jclmsoft.voicesms.ui.setup.WizardSplash;
 
 public class SMSCompose extends Activity {
 	protected AutoCompleteTextView m_to;
@@ -45,6 +47,13 @@ public class SMSCompose extends Activity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+			PreferencesProvider prefs = PreferencesProvider.getInstance(this);
+			if (!prefs.getBoolean(PreferencesProvider.SETUP_COMPLETED, false)) {
+				startActivity(new Intent(this, WizardSplash.class));
+				finish();
+			}
+
 
 		setContentView(R.layout.sms_compose);
 

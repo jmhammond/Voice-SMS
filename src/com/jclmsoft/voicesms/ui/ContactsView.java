@@ -90,9 +90,6 @@ public class ContactsView extends ListActivity implements View.OnCreateContextMe
 				i.setData(Uri.parse(String.format("gvsms:%s", number)));
 				startActivity(i);
 				return true;
-			case MENU_CALL:
-				m_parent.call(number);
-				return true;
 		}
 		return super.onContextItemSelected(item);
 	}
@@ -120,11 +117,6 @@ public class ContactsView extends ListActivity implements View.OnCreateContextMe
 		super.onActivityResult(requestCode, resultCode, data);
 
 		if (resultCode == RESULT_OK) {
-			switch (requestCode) {
-				case CODE_CALL:
-					m_parent.call(data.getData().getSchemeSpecificPart());
-					break;
-			}
 		}
 	}
 

@@ -25,17 +25,14 @@ import android.widget.AdapterView;
 import android.widget.SimpleAdapter;
 
 import com.jclmsoft.voicesms.R;
-import com.jclmsoft.voicesms.ui.CallLogActivity;
 import com.jclmsoft.voicesms.ui.SMSCompose;
 import com.jclmsoft.voicesms.ui.SMSThreads;
-import com.jclmsoft.voicesms.ui.VoicemailView;
 
 public class ShortcutCreator extends ListActivity {
 	private static final String TEXT = "text";
 	private static final String CODE = "request_code";
 	private static final String DATA = "data";
 
-	private static final int CODE_QUICK_CALL = 10;
 	private static final int CODE_QUICK_SMS = 11;
 
 	private List<HashMap<String, Object>> m_data;
@@ -45,13 +42,6 @@ public class ShortcutCreator extends ListActivity {
 		super.onCreate(savedInstanceState);
 
 		m_data = new ArrayList<HashMap<String, Object>>();
-
-		// quick call
-		HashMap<String, Object> quickCall = new HashMap<String, Object>();
-		quickCall.put(TEXT, getString(R.string.shortcut_text_direct_call));
-		quickCall.put(CODE, CODE_QUICK_CALL);
-		quickCall.put(DATA, new Intent(Intent.ACTION_PICK).setData(Phones.CONTENT_URI));
-		m_data.add(quickCall);
 
 		// quick SMS
 		HashMap<String, Object> quickSMS = new HashMap<String, Object>();
@@ -73,20 +63,6 @@ public class ShortcutCreator extends ListActivity {
 		composeSMS.put(DATA, new Intent().putExtra(Intent.EXTRA_SHORTCUT_INTENT, new Intent(this, SMSCompose.class)).putExtra(Intent.EXTRA_SHORTCUT_NAME, getString(R.string.shortcut_sms_compose)).putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,
 				Intent.ShortcutIconResource.fromContext(this, R.drawable.contacticon)));
 		m_data.add(composeSMS);
-
-		// voicemail
-		HashMap<String, Object> voicemail = new HashMap<String, Object>();
-		voicemail.put(TEXT, getString(R.string.shortcut_text_voicemail));
-		voicemail.put(DATA, new Intent().putExtra(Intent.EXTRA_SHORTCUT_INTENT, new Intent(this, VoicemailView.class)).putExtra(Intent.EXTRA_SHORTCUT_NAME, getString(R.string.shortcut_voicemail)).putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,
-				Intent.ShortcutIconResource.fromContext(this, R.drawable.contacticon)));
-		m_data.add(voicemail);
-
-		// call log
-		HashMap<String, Object> callLog = new HashMap<String, Object>();
-		callLog.put(TEXT, getString(R.string.shortcut_text_call_log));
-		callLog.put(DATA, new Intent().putExtra(Intent.EXTRA_SHORTCUT_INTENT, new Intent(this, CallLogActivity.class)).putExtra(Intent.EXTRA_SHORTCUT_NAME, getString(R.string.shortcut_call_log)).putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,
-				Intent.ShortcutIconResource.fromContext(this, R.drawable.contacticon)));
-		m_data.add(callLog);
 
 		String[] from = new String[] {
 			TEXT
@@ -125,23 +101,6 @@ public class ShortcutCreator extends ListActivity {
 			boolean set = false;
 			Cursor c = null;
 			switch (requestCode) {
-				case CODE_QUICK_CALL:
-					c = managedQuery(data.getData(), new String[] {
-							Phones.PERSON_ID,
-							Phones.DISPLAY_NAME,
-							Phones.NUMBER,
-							Phones.TYPE
-					}, null, null, null);
-					if (c.getCount() == 1) {
-						c.moveToFirst();
-						Uri uri = Uri.parse(String.format("gv:%s", c.getString(2)));
-						Uri personUri = ContentUris.withAppendedId(People.CONTENT_URI, c.getLong(0));
-						i.putExtra(Intent.EXTRA_SHORTCUT_INTENT, new Intent(Intent.ACTION_CALL).setData(uri));
-						i.putExtra(Intent.EXTRA_SHORTCUT_NAME, c.getString(1));
-						i.putExtra(Intent.EXTRA_SHORTCUT_ICON, generatePhoneNumberIcon(personUri, c.getInt(3), R.drawable.contacticon));
-						set = true;
-					}
-					break;
 				case CODE_QUICK_SMS:
 					c = managedQuery(data.getData(), new String[] {
 							Phones.PERSON_ID,

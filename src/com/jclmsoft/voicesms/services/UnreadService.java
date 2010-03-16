@@ -20,7 +20,6 @@ import com.jclmsoft.voicesms.VoiceSMS;
 import com.jclmsoft.voicesms.PreferencesProvider;
 import com.jclmsoft.voicesms.net.GVCommunicator;
 import com.jclmsoft.voicesms.ui.SMSThreads;
-import com.jclmsoft.voicesms.ui.VoicemailView;
 
 public class UnreadService extends Service {
 	public static final String ACTION_CHECK_MAIL = "com.jclmsoft.voicesms.intent.action.VOICEMAIL_SERVICE_CHECK";
@@ -104,36 +103,6 @@ public class UnreadService extends Service {
 		releaseWakeLock();
 	}
 
-	private void createVoicemailNotification(Long numNew) {
-		NotificationManager nm = (NotificationManager) getSystemService(Activity.NOTIFICATION_SERVICE);
-		if (nm != null) {
-			if (numNew == null || numNew == 0) {
-				nm.cancel(VoiceSMS.NOTIFICATION_VOICEMAIL);
-				return;
-			}
-			Notification notification = new Notification(R.drawable.contacticon, "New Voicemail!", System.currentTimeMillis());
-			notification.flags = Notification.FLAG_SHOW_LIGHTS | Notification.FLAG_AUTO_CANCEL;
-			// the letter "V" in Morse code :)
-			notification.vibrate = new long[] {
-					DELAY,
-					SHORT,
-					DELAY,
-					SHORT,
-					DELAY,
-					SHORT,
-					DELAY,
-					LONG
-			};
-			notification.ledARGB = 0xFF005FC8;
-			notification.ledOnMS = 500;
-			notification.ledOffMS = 500;
-			Intent i = new Intent(this, VoicemailView.class);
-			PendingIntent pi = PendingIntent.getActivity(this, 0, i, 0);
-			notification.setLatestEventInfo(getApplication(), "New voicemail", String.format("You have %d new voicemail message%s!", numNew, (numNew == 1 ? "" : "s")), pi);
-			nm.notify(VoiceSMS.NOTIFICATION_VOICEMAIL, notification);
-		}
-	}
-
 	private void createSMSNotification(Long numNew) {
 		NotificationManager nm = (NotificationManager) getSystemService(Activity.NOTIFICATION_SERVICE);
 		if (nm != null) {
@@ -155,10 +124,9 @@ public class UnreadService extends Service {
 			notification.ledARGB = 0xFF005FC8;
 			notification.ledOnMS = 500;
 			notification.ledOffMS = 250;
-			// TODO: make this open the voicemail tab
 			Intent i = new Intent(this, SMSThreads.class);
 			PendingIntent pi = PendingIntent.getActivity(this, 0, i, 0);
-			notification.setLatestEventInfo(getApplication(), "New GV SMS", String.format("You have %d new GV SMS message%s!", numNew, (numNew == 1 ? "" : "s")), pi);
+			notification.setLatestEventInfo(getApplication(), "New Voice SMS", String.format("You have %d new Voice SMS message%s!", numNew, (numNew == 1 ? "" : "s")), pi);
 			nm.notify(VoiceSMS.NOTIFICATION_SMS, notification);
 		}
 	}
@@ -205,7 +173,6 @@ public class UnreadService extends Service {
 			if (unread == null) {
 				reschedule();
 			} else {
-				createVoicemailNotification(unread.get("voicemail"));
 				createSMSNotification(unread.get("sms"));
 			}
 		}
