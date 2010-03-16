@@ -117,9 +117,10 @@ public final class R {
         public static final int ic_tab_unselected_dialer=0x7f02005e;
         public static final int ic_tab_unselected_recent=0x7f02005f;
         public static final int icon=0x7f020060;
-        public static final int sms_bg=0x7f020061;
-        public static final int stat_notify_sms=0x7f020062;
-        public static final int statusicon_error=0x7f020063;
+        public static final int icon_file=0x7f020061;
+        public static final int sms_bg=0x7f020062;
+        public static final int stat_notify_sms=0x7f020063;
+        public static final int statusicon_error=0x7f020064;
     }
     public static final class id {
         public static final int ImageView01=0x7f070033;
