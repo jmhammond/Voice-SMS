@@ -247,7 +247,7 @@ public class SMSCompose extends Activity {
 		m_send.setText("Send");
 		m_send.setEnabled(true);
 		setResult(RESULT_OK);
-	//	finish();
+		finish();
 	}
 
 	protected static class SendSMSTask extends AsyncTask<String, Integer, Boolean> {

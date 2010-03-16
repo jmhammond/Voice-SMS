@@ -110,16 +110,14 @@ public class UnreadService extends Service {
 				nm.cancel(VoiceSMS.NOTIFICATION_SMS);
 				return;
 			}
-			Notification notification = new Notification(R.drawable.contacticon, "New Google Voice SMS!", System.currentTimeMillis());
+			Notification notification = new Notification(R.drawable.icon, "New Google Voice SMS!", System.currentTimeMillis());
 			notification.flags = Notification.FLAG_SHOW_LIGHTS | Notification.FLAG_AUTO_CANCEL;
 			// the letter "S" in Morse code :)
 			notification.vibrate = new long[] {
 					DELAY,
 					SHORT,
 					DELAY,
-					SHORT,
-					DELAY,
-					SHORT,
+					SHORT
 			};
 			notification.ledARGB = 0xFF005FC8;
 			notification.ledOnMS = 500;
@@ -135,7 +133,7 @@ public class UnreadService extends Service {
 		WakeLock oldWakeLock = wakeLock;
 
 		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-		wakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "GV-Voicemail-Check");
+		wakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "VoiceSMS-SMS-Check");
 		wakeLock.setReferenceCounted(false);
 		// if I'm not done checking in 20 seconds, then to hell with it
 		wakeLock.acquire(20 * 1000);
