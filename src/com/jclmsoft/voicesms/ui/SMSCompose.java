@@ -29,6 +29,7 @@ import android.widget.TextView;
 import com.jclmsoft.voicesms.PreferencesProvider;
 import com.jclmsoft.voicesms.R;
 import com.jclmsoft.voicesms.net.GVCommunicator;
+import com.jclmsoft.voicesms.objects.SMSThread;
 import com.jclmsoft.voicesms.ui.setup.WizardSplash;
 
 public class SMSCompose extends Activity {
@@ -42,18 +43,19 @@ public class SMSCompose extends Activity {
 
 	protected SendSMSTask m_task;
 
+	protected SMSThread m_thread;
+
 	protected static final int MESSAGE_LENGTH = 160;
 	protected static final int MESSAGE_THRESHOLD = MESSAGE_LENGTH - 10;
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-			PreferencesProvider prefs = PreferencesProvider.getInstance(this);
-			if (!prefs.getBoolean(PreferencesProvider.SETUP_COMPLETED, false)) {
-				startActivity(new Intent(this, WizardSplash.class));
-				finish();
-			}
-
+		PreferencesProvider prefs = PreferencesProvider.getInstance(this);
+		if (!prefs.getBoolean(PreferencesProvider.SETUP_COMPLETED, false)) {
+			startActivity(new Intent(this, WizardSplash.class));
+			finish();
+		}
 
 		setContentView(R.layout.sms_compose);
 
@@ -245,7 +247,7 @@ public class SMSCompose extends Activity {
 		m_send.setText("Send");
 		m_send.setEnabled(true);
 		setResult(RESULT_OK);
-		finish();
+	//	finish();
 	}
 
 	protected static class SendSMSTask extends AsyncTask<String, Integer, Boolean> {

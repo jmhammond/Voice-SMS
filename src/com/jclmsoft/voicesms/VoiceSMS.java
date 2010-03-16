@@ -63,9 +63,8 @@ public class VoiceSMS extends Activity {
 	public static final int NOTIFICATION_SMS = 0xFACECA2D;
 
 	private static final int MENU_SETTINGS = Menu.FIRST;
-	private static final int MENU_SMS = Menu.FIRST + 1;
-	private static final int MENU_DELETE = Menu.FIRST + 2;
-	private static final int MENU_RELOAD = Menu.FIRST + 3;
+	private static final int MENU_DELETE = Menu.FIRST + 1;
+	private static final int MENU_RELOAD = Menu.FIRST + 2;
 
 	private PreferencesProvider m_prefs;
 
@@ -169,9 +168,7 @@ public class VoiceSMS extends Activity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-		checkSettings();
-//		Intent i = new Intent(this, SMSThreads.class);
-//		startActivity(i);		
+		checkSettings();	
 	}
 
 	@Override
@@ -194,7 +191,6 @@ public class VoiceSMS extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		menu.add(Menu.NONE, MENU_RELOAD, Menu.NONE, R.string.reload).setIcon(R.drawable.ic_menu_refresh);
 		menu.add(Menu.NONE, MENU_SETTINGS, Menu.NONE, R.string.settings).setShortcut('1', 's').setIcon(android.R.drawable.ic_menu_preferences);
-//		menu.add(Menu.NONE, MENU_SMS, Menu.NONE, "SMS").setIcon(android.R.drawable.ic_menu_send);
 		HelpDialog.injectHelp(menu, 'h');
 		return super.onCreateOptionsMenu(menu);
 	}
@@ -206,10 +202,6 @@ public class VoiceSMS extends Activity {
 				return true;
 			case MENU_SETTINGS:
 				goToSettings();
-				return true;
-			case MENU_SMS:
-				Intent i = new Intent(this, SMSThreads.class);
-				startActivity(i);
 				return true;
 			case MENU_RELOAD:
 				m_adapterData.clear();

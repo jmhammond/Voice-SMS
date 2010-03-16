@@ -12,7 +12,6 @@ import com.jclmsoft.voicesms.objects.SMS;
 import com.jclmsoft.voicesms.objects.SMSThread;
 
 public class ThreadView extends SMSCompose {
-	private SMSThread m_thread;
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

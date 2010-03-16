@@ -123,7 +123,7 @@ public class LoginInformation extends SetupActivity {
 				if (result) {
 					activity.PREFS.write(PreferencesProvider.USERNAME, activity.m_usernameEdit.getText().toString().trim());
 					activity.PREFS.write(PreferencesProvider.PASSWORD, activity.m_passwordEdit.getText().toString().trim());
-					activity.startActivity(new Intent(activity, PhoneNumbers.class));
+					activity.startActivity(new Intent(activity, ApplicationSettings.class));
 				} else {
 					activity.setTitle(R.string.setup_googlevoice);
 					activity.setProgressBarIndeterminateVisibility(false);
