@@ -1,0 +1,587 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/gv/!svn/ver/119/tags/2.5.3/res/drawable
+END
+dial_num_9.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_9.xml
+END
+btn_circle_disable_focused.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_circle_disable_focused.png
+END
+btn_dial_textfield_pressed_full.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_pressed_full.9.png
+END
+btn_dial_delete_active.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_delete_active.xml
+END
+dial_num_star_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_star_blk.png
+END
+dial_num_pound.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_pound.xml
+END
+ic_tab_selected_dialer.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_selected_dialer.png
+END
+btn_circle_selected.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_circle_selected.png
+END
+btn_circle_normal.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_circle_normal.png
+END
+ic_dial_number_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dial_number_wht.png
+END
+btn_circle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_circle.xml
+END
+divider_vertical_dark.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/divider_vertical_dark.png
+END
+stat_notify_sms.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/stat_notify_sms.png
+END
+ic_btn_round_more.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_btn_round_more.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/icon.png
+END
+btn_dial_delete_activated.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_delete_activated.9.png
+END
+dial_num_0_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_0_wht.png
+END
+ic_dialer_fork_current_call.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dialer_fork_current_call.png
+END
+dial_num_1_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_1_wht.png
+END
+btn_dial_delete_pressed.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_delete_pressed.9.png
+END
+ic_tab_unselected_contacts.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_unselected_contacts.png
+END
+dial_num_2_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_2_wht.png
+END
+dial_num_3_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_3_wht.png
+END
+dial_num_4_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_4_wht.png
+END
+dial_num_5_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_5_wht.png
+END
+dial_num_6_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_6_wht.png
+END
+ic_dialer_fork_add_call.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dialer_fork_add_call.png
+END
+dial_num_7_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_7_wht.png
+END
+ic_delete_phone_number_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_delete_phone_number_wht.png
+END
+ic_dialer_fork_tt_keypad.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dialer_fork_tt_keypad.png
+END
+dial_num_8_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_8_wht.png
+END
+ic_menu_delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_menu_delete.png
+END
+dial_num_9_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_9_wht.png
+END
+bottombar_landscape_565.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/bottombar_landscape_565.png
+END
+btn_dial_textfield_normal.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_normal.9.png
+END
+btn_dial_textfield_selected.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_selected.9.png
+END
+btn_dial_delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_delete.xml
+END
+dial_num_pound_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_pound_wht.png
+END
+btn_dial_textfield_activated.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_activated.9.png
+END
+btn_dial_textfield_pressed.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_pressed.9.png
+END
+ic_dial_number_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dial_number_blk.png
+END
+ic_menu_mark.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_menu_mark.png
+END
+dial_num_star.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_star.xml
+END
+ic_menu_refresh.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_menu_refresh.png
+END
+dial_num_0_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_0_blk.png
+END
+ic_dialer_voicemail_black.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dialer_voicemail_black.png
+END
+dial_num_1_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_1_blk.png
+END
+btn_dial_textfield.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield.xml
+END
+dial_num_2_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_2_blk.png
+END
+btn_dial_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_pressed.png
+END
+dial_num_3_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_3_blk.png
+END
+dial_num_4_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_4_blk.png
+END
+ic_menu_forward.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_menu_forward.png
+END
+dial_num_5_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_5_blk.png
+END
+contacticon.png
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/contacticon.png
+END
+dial_num_6_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_6_blk.png
+END
+dial_num_7_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_7_blk.png
+END
+ic_delete_phone_number_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_delete_phone_number_blk.png
+END
+dial_num_8_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_8_blk.png
+END
+dial_num_9_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_9_blk.png
+END
+btn_dial_delete_selected.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_delete_selected.9.png
+END
+btn_dial_delete_normal.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_delete_normal.9.png
+END
+ic_menu_close_clear_cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_menu_close_clear_cancel.png
+END
+ic_btn_round_minus.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_btn_round_minus.png
+END
+sms_bg.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/sms_bg.9.png
+END
+dial_num_pound_blk.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_pound_blk.png
+END
+btn_dial_textfield_normal_full.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_normal_full.9.png
+END
+btn_dial_textfield_selected_full.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_selected_full.9.png
+END
+btn_circle_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_circle_pressed.png
+END
+btn_dial_textfield_active.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_active.xml
+END
+ic_tab_contacts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_contacts.xml
+END
+ic_tab_unselected_recent.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_unselected_recent.png
+END
+ic_tab_recent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_recent.xml
+END
+btn_dial_textfield_activated_full.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_textfield_activated_full.9.png
+END
+dial_num_star_wht.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_star_wht.png
+END
+statusicon_error.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/statusicon_error.png
+END
+ic_btn_round_plus.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_btn_round_plus.png
+END
+ic_dial_number.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_dial_number.xml
+END
+ic_tab_selected_preferences.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_selected_preferences.png
+END
+ic_tab_unselected_dialer.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_unselected_dialer.png
+END
+ic_tab_dialer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_dialer.xml
+END
+dial_num_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_0.xml
+END
+btn_dial_normal.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_normal.png
+END
+btn_dial_selected.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial_selected.png
+END
+dial_num_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_1.xml
+END
+dial_num_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_2.xml
+END
+dial_num_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_3.xml
+END
+dial_num_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_4.xml
+END
+btn_circle_disable.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_circle_disable.png
+END
+ic_tab_selected_contacts.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_selected_contacts.png
+END
+dial_num_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_5.xml
+END
+btn_dial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/btn_dial.xml
+END
+dial_num_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_6.xml
+END
+ic_tab_selected_recent.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_tab_selected_recent.png
+END
+dial_num_7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_7.xml
+END
+ic_delete_phone_number.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/ic_delete_phone_number.xml
+END
+dial_num_8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/drawable/dial_num_8.xml
+END

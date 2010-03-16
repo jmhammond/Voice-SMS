@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice
+END
+ButtonGridLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice/ButtonGridLayout.java
+END
+CancelCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice/CancelCallback.java
+END
+GoogleVoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice/GoogleVoice.java
+END
+ShortcutCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice/ShortcutCreator.java
+END
+PreferencesProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice/PreferencesProvider.java
+END
+DropDownAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/gv/!svn/ver/119/tags/2.5.3/src/com/evancharlton/googlevoice/DropDownAdapter.java
+END

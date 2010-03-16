@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/gv/!svn/ver/119/tags/2.5.3/res/layout
+END
+contact_number_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gv/!svn/ver/119/tags/2.5.3/res/layout/contact_number_dialog.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gv/!svn/ver/119/tags/2.5.3/res/layout/main.xml
+END
+setup_phone_numbers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_phone_numbers.xml
+END
+sms_compose.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_compose.xml
+END
+help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gv/!svn/ver/119/tags/2.5.3/res/layout/help.xml
+END
+dialpad_chooser_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gv/!svn/ver/119/tags/2.5.3/res/layout/dialpad_chooser_list_item.xml
+END
+sms_message_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_message_row.xml
+END
+setup_edit_phone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_edit_phone.xml
+END
+voicemail_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gv/!svn/ver/119/tags/2.5.3/res/layout/voicemail_row.xml
+END
+setup_application_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_application_settings.xml
+END
+sms_other_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_other_message.xml
+END
+voicemail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gv/!svn/ver/119/tags/2.5.3/res/layout/voicemail.xml
+END
+sms_message_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_message_text.xml
+END
+setup_splash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_splash.xml
+END
+about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gv/!svn/ver/119/tags/2.5.3/res/layout/about.xml
+END
+sms_threads.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_threads.xml
+END
+sms_reply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_reply.xml
+END
+setup_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_footer.xml
+END
+sms_self_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_self_message.xml
+END
+voicemail_player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/layout/voicemail_player.xml
+END
+view_contact.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gv/!svn/ver/119/tags/2.5.3/res/layout/view_contact.xml
+END
+sms_thread.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_thread.xml
+END
+sms_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_list.xml
+END
+setup_login_information.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_login_information.xml
+END
+twelve_key_dialer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gv/!svn/ver/119/tags/2.5.3/res/layout/twelve_key_dialer.xml
+END
+dialpad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gv/!svn/ver/119/tags/2.5.3/res/layout/dialpad.xml
+END
+settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gv/!svn/ver/119/tags/2.5.3/res/layout/settings.xml
+END
+setup_overlay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gv/!svn/ver/119/tags/2.5.3/res/layout/setup_overlay.xml
+END
+progress_overlay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gv/!svn/ver/119/tags/2.5.3/res/layout/progress_overlay.xml
+END
+simple_expandable_list_item_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gv/!svn/ver/119/tags/2.5.3/res/layout/simple_expandable_list_item_2.xml
+END
+call_log.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gv/!svn/ver/119/tags/2.5.3/res/layout/call_log.xml
+END
+sms_compose_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gv/!svn/ver/119/tags/2.5.3/res/layout/sms_compose_row.xml
+END
+contacts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gv/!svn/ver/119/tags/2.5.3/res/layout/contacts.xml
+END
